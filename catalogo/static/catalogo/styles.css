@@ -1,0 +1,33 @@
+body { background: #f4f5f7; }
+.tienda-bar { background: #111827; }
+.tienda-bar .marca { color: #fff; font-weight: 700; font-size: 1.2rem; }
+.tienda-bar a { color: #9ca3af; }
+.tienda-bar a:hover { color: #fff; }
+.grid-container { padding-top: 1.5rem; padding-bottom: 2rem; }
+
+.filtros { background: #fff; border-radius: 8px; }
+.resumen { color: #6b7280; margin: .5rem 0 1rem; }
+
+.tarjeta {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,.12);
+  height: calc(100% - 1.5rem);
+  display: flex;
+  flex-direction: column;
+}
+.tarjeta .img {
+  height: 150px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 3.5rem;
+  background: linear-gradient(135deg, #1f2937, #4b5563);
+}
+.tarjeta .cuerpo { padding: 1rem; flex: 1; display: flex; flex-direction: column; }
+.tarjeta h3 { font-size: 1.15rem; margin: .25rem 0; }
+.tarjeta .marca-nombre { color: #6b7280; font-size: .85rem; text-transform: uppercase; letter-spacing: .04em; }
+.tarjeta .desc { color: #4b5563; font-size: .9rem; flex: 1; }
+.tarjeta .precio { font-size: 1.3rem; font-weight: 700; color: #111827; margin: .5rem 0; }
+.tarjeta .button { margin: 0; }
+.etiqueta-dest { background: #f59e0b; color: #fff; padding: 0 .5rem; border-radius: 4px; font-size: .75rem; margin-left: .4rem; }
